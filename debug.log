@@ -1,0 +1,665 @@
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 12:28:53 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|05:28:53] Listening on port 80!
+[2022-03-21|05:28:54] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 12:40:37 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|05:40:37] Listening on port 80!
+[2022-03-21|05:40:37] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:00:47 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:00:47] Listening on port 80!
+[2022-03-21|06:00:48] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:01:24 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:01:24] Listening on port 80!
+[2022-03-21|06:01:24] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:03:39 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:03:39] Listening on port 80!
+[2022-03-21|06:03:40] Connected to MongoDB!
+---------------------------------------
+[2022-03-21|06:04:54] User signed up
+[2022-03-21|06:04:54] Username: nhat.admin
+[2022-03-21|06:04:54] Fullname: Bui Hoang Nhat
+---------------------------------------
+---------------------------------------
+[2022-03-21|06:06:23] User logged in
+[2022-03-21|06:06:23] Username: nhat.admin
+[2022-03-21|06:06:23] Fullname: Bui Hoang Nhat
+---------------------------------------
+---------------------------------------
+[2022-03-21|06:06:33] User logged in
+[2022-03-21|06:06:33] Username: nhat.admin
+[2022-03-21|06:06:33] Fullname: Bui Hoang Nhat
+---------------------------------------
+[2022-03-21|06:07:50] ERROR: ReferenceError: accessTokenKey is not defined
+    at exports.autoLogin (C:\Users\nhat\Desktop\matbien\backend\controllers\user.js:66:47)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:47:12)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:08:36 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:08:37] Listening on port 80!
+[2022-03-21|06:08:37] Connected to MongoDB!
+---------------------------------------
+[2022-03-21|06:08:39] User autologin
+[2022-03-21|06:08:39] Username: nhat.admin
+[2022-03-21|06:08:39] Fullname: Bui Hoang Nhat
+---------------------------------------
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:13:32 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:13:32] Listening on port 80!
+[2022-03-21|06:13:33] Connected to MongoDB!
+[2022-03-21|06:13:49] ERROR: [Error: /jobbroker.com/static/images/1647843229772-image.webp: unable to open for write
+windows error: The system cannot find the file specified.
+
+]
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:15:04 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:15:04] Listening on port 80!
+[2022-03-21|06:15:04] Connected to MongoDB!
+[2022-03-21|06:15:09] ERROR: [Error: ../resources/1647843309513-image.webp: unable to open for write
+windows error: The system cannot find the file specified.
+
+]
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:15:52 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:15:52] Listening on port 80!
+[2022-03-21|06:15:53] Connected to MongoDB!
+[2022-03-21|06:15:55] ERROR: [Error: ../resources/1647843355465-image.webp: unable to open for write
+windows error: The system cannot find the file specified.
+
+]
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:16:49 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:16:49] Listening on port 80!
+[2022-03-21|06:16:50] Connected to MongoDB!
+[2022-03-21|06:16:54] User [undefined] uploaded: 1647843413166-image.webp
+[2022-03-21|06:16:54] Created new post:
+[2022-03-21|06:27:36] ERROR: Error: Spec validation failed: name: Path `name` is required., price: Path `price` is required.
+    at ValidationError.inspect (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (internal/util/inspect.js:745:19)
+    at inspect (internal/util/inspect.js:319:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1979:40)
+    at Object.format (internal/util/inspect.js:1853:10)
+    at console.error (C:\Users\nhat\Desktop\matbien\backend\main.js:25:31)
+    at exports.createSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:56:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  errors: {
+    name: ValidatorError: Path `name` is required.
+        at validate (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1321:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1305:7)
+        at C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\document.js:2729:18
+        at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1321:13)
+        at SchemaNumber.SchemaType.doValidate (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1305:7)
+        at C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\document.js:2729:18
+        at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Spec validation failed'
+}
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:29:21 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:29:21] Listening on port 80!
+[2022-03-21|06:29:21] Connected to MongoDB!
+[2022-03-21|06:29:24] User [undefined] uploaded: 1647844163546-image.webp
+[2022-03-21|06:29:26] User [undefined] uploaded: 1647844163548-image.webp
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:31:50 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:31:50] Listening on port 80!
+[2022-03-21|06:31:51] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:37:54 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:37:54] Listening on port 80!
+[2022-03-21|06:37:55] Connected to MongoDB!
+[2022-03-21|06:37:58] ERROR: MongoServerError: $pullAll requires an array argument but was given a objectId
+    at MessageStream.messageHandler (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongodb\lib\cmap\connection.js:462:30)
+    at MessageStream.emit (events.js:400:28)
+    at processIncomingData (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at TLSSocket.ondata (internal/streams/readable.js:731:22)
+    at TLSSocket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9) {
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1647844677, i: 1 }),
+    signature: {
+      hash: new Binary(Buffer.from("99174f5c5f1d3e7100fafb4d77bea2c9543343ff", "hex"), 0),
+      keyId: new Long("7074614239561777156")
+    }
+  },
+  operationTime: new Timestamp({ t: 1647844677, i: 1 })
+}
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:38:19 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:38:19] Listening on port 80!
+[2022-03-21|06:38:19] Connected to MongoDB!
+[2022-03-21|06:38:21] ERROR: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+    at new NodeError (internal/errors.js:322:7)
+    at makeCallback (fs.js:176:11)
+    at Object.unlink (fs.js:1244:14)
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:70:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  code: 'ERR_INVALID_CALLBACK'
+}
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:39:17 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:39:17] Listening on port 80!
+[2022-03-21|06:39:18] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:39:28 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:39:28] Listening on port 80!
+[2022-03-21|06:39:29] Connected to MongoDB!
+[2022-03-21|06:39:33] ERROR: TypeError: Cannot read property 'images' of null
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:68:39)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:40:38 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:40:38] Listening on port 80!
+[2022-03-21|06:40:39] Connected to MongoDB!
+[2022-03-21|06:40:41] ERROR: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:267:15)
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:67:41)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2022-03-21|06:40:41] ERROR: (node:24236) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:267:15)
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:76:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-03-21|06:40:41] ERROR: (node:24236) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[2022-03-21|06:40:41] ERROR: (node:24236) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:40:54 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:40:54] Listening on port 80!
+[2022-03-21|06:40:55] Connected to MongoDB!
+[2022-03-21|06:40:57] ERROR: TypeError: Cannot read property 'images' of null
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:69:39)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2022-03-21|06:40:57] ERROR: (node:9328) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\response.js:267:15)
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:76:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-03-21|06:40:57] ERROR: (node:9328) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[2022-03-21|06:40:57] ERROR: (node:9328) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:41:07 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:41:07] Listening on port 80!
+[2022-03-21|06:41:08] Connected to MongoDB!
+[2022-03-21|06:41:22] User [undefined] uploaded: 1647844882483-image.webp
+[2022-03-21|06:41:25] User [undefined] uploaded: 1647844882488-image.webp
+[2022-03-21|06:41:32] ERROR: TypeError: fs.unlinkAsync is not a function
+    at exports.deleteSpec (C:\Users\nhat\Desktop\matbien\backend\controllers\product.js:71:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:41:57 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:41:57] Listening on port 80!
+[2022-03-21|06:41:58] Connected to MongoDB!
+[2022-03-21|06:42:13] User [undefined] uploaded: 1647844932632-image.webp
+[2022-03-21|06:42:15] User [undefined] uploaded: 1647844932634-image.webp
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 13:42:26 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|06:42:26] Listening on port 80!
+[2022-03-21|06:42:27] Connected to MongoDB!
+[2022-03-21|07:02:48] User [undefined] uploaded: 1647846167757-image.webp
+[2022-03-21|07:02:50] User [undefined] uploaded: 1647846167758-image.webp
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:10:05 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:10:05] Listening on port 80!
+[2022-03-21|07:10:06] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:10:46 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:10:46] Listening on port 80!
+[2022-03-21|07:10:47] Connected to MongoDB!
+[2022-03-21|07:10:48] undefined
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:10:58 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:10:58] Listening on port 80!
+[2022-03-21|07:10:58] Connected to MongoDB!
+[2022-03-21|07:11:01] [object Object]
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:11:31 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:11:31] Listening on port 80!
+[2022-03-21|07:11:32] Connected to MongoDB!
+[2022-03-21|07:11:34] {}
+[2022-03-21|07:13:15] {}
+[2022-03-21|07:13:24] {"customerName":"Bui Hoang Nhat","data":[{"amount":1,"product":"6238194eebc72f2381b2fba3","spec":"6238231ac02f09d3966c2399"}],"phone":"0333082897","email":"nhatyt123@gmail.com","province":{"name":"Ninh Binh","code":"35"},"district":{"name":"Yen Mo","code":"1"},"ward":{"name":"Yen Tu","code":"2"},"address":"Xom Thuong"}
+[2022-03-21|07:13:24] ERROR: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at exports.createOrder (C:\Users\nhat\Desktop\matbien\backend\controllers\order.js:19:27)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:174:3)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:14:42 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:14:42] Listening on port 80!
+[2022-03-21|07:14:43] Connected to MongoDB!
+[2022-03-21|07:14:44] 1
+[2022-03-21|07:14:44] ERROR: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at exports.createOrder (C:\Users\nhat\Desktop\matbien\backend\controllers\order.js:21:27)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:174:3)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:15:21 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:15:21] Listening on port 80!
+[2022-03-21|07:15:22] Connected to MongoDB!
+[2022-03-21|07:18:39] ERROR: TypeError: Cannot read property 'status' of undefined
+    at exports.changeOrderStatus (C:\Users\nhat\Desktop\matbien\backend\controllers\order.js:63:38)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:47:12)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:19:31 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:19:31] Listening on port 80!
+[2022-03-21|07:19:31] Connected to MongoDB!
+[2022-03-21|07:19:33] ERROR: TypeError: Cannot read property 'status' of undefined
+    at exports.changeOrderStatus (C:\Users\nhat\Desktop\matbien\backend\controllers\order.js:63:38)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\index.js:47:12)
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 14:19:46 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|07:19:46] Listening on port 80!
+[2022-03-21|07:19:47] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 15:16:30 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|08:16:30] Listening on port 80!
+[2022-03-21|08:16:31] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 15:17:14 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|08:17:14] Listening on port 80!
+[2022-03-21|08:17:15] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Mon Mar 21 2022 23:58:14 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|16:58:14] Listening on port 80!
+[2022-03-21|16:58:15] Connected to MongoDB!
+[2022-03-21|17:09:05] User [undefined] uploaded: 1647882545049-image.webp
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 01:20:10 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|18:20:10] Listening on port 80!
+[2022-03-21|18:20:11] Connected to MongoDB!
+[2022-03-21|18:26:10] ERROR: ReferenceError: request is not defined
+    at C:\Users\nhat\Desktop\matbien\backend\main.js:73:7
+    at Layer.handle [as handle_request] (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:131:14)
+    at Route.dispatch (C:\Users\nhat\Desktop\matbien\backend\node_modules\express\lib\router\route.js:112:3)
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 01:28:09 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|18:28:09] Listening on port 80!
+[2022-03-21|18:28:10] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 01:30:54 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|18:30:54] Listening on port 80!
+[2022-03-21|18:30:55] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 03:07:35 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|20:07:35] Listening on port 80!
+[2022-03-21|20:07:36] Connected to MongoDB!
+[2022-03-21|21:38:31] User [nhat.admin] uploaded: 1647898708918-image.webp
+[2022-03-21|21:38:31] Created new post:
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 04:46:45 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|21:46:45] Listening on port 80!
+[2022-03-21|21:46:46] Connected to MongoDB!
+[2022-03-21|21:48:20] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:48:43] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:49:41] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:49:53] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:49:57] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:50:13] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 04:51:43 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|21:51:43] Listening on port 80!
+[2022-03-21|21:51:43] Connected to MongoDB!
+[2022-03-21|21:52:58] User [nhat.admin] uploaded: 1647899576409-image.png
+[2022-03-21|21:52:59] Created new post:
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 04:53:22 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|21:53:22] Listening on port 80!
+[2022-03-21|21:53:22] Connected to MongoDB!
+[2022-03-21|21:53:54] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+[2022-03-21|21:54:08] ERROR: Error: ENOENT: no such file or directory, stat 'C:\Users\nhat\Desktop\matbien\backend\resources\nophoto.jpg'
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 04:55:15 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|21:55:15] Listening on port 80!
+[2022-03-21|21:55:16] Connected to MongoDB!
+[2022-03-21|22:03:36] ERROR: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:05:44] ERROR: CastError: Cast to ObjectId failed for value "6238f3ba980d6c17ce634b8asd" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"6238f3ba980d6c17ce634b8asd"',
+  kind: 'ObjectId',
+  value: '6238f3ba980d6c17ce634b8asd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:06:19] ERROR: CastError: Cast to ObjectId failed for value "6238f3ba980d6c17ce634b8asd" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"6238f3ba980d6c17ce634b8asd"',
+  kind: 'ObjectId',
+  value: '6238f3ba980d6c17ce634b8asd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:06:56] ERROR: CastError: Cast to ObjectId failed for value "6238f3ba980d6c17ce634b8asd" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"6238f3ba980d6c17ce634b8asd"',
+  kind: 'ObjectId',
+  value: '6238f3ba980d6c17ce634b8asd',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:07:05] ERROR: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:07:19] ERROR: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:07:20] ERROR: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
+[2022-03-21|22:15:35] User [nhat.admin] uploaded: 1647900934332-image.png
+[2022-03-21|22:15:35] Created new post:
+[2022-03-21|22:15:41] User [nhat.admin] uploaded: 1647900941050-image.png
+[2022-03-21|22:15:41] Created new post:
+[2022-03-21|22:15:50] User [nhat.admin] uploaded: 1647900949042-image.png
+[2022-03-21|22:15:50] Created new post:
+[2022-03-21|22:15:58] User [nhat.admin] uploaded: 1647900957561-image.png
+[2022-03-21|22:15:58] Created new post:
+[2022-03-21|23:15:35] ERROR: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Post"
+    at model.Query.exec (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4641:21)
+    at model.Query.Query.then (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:4740:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\bson\lib\objectid.js:65:23)
+      at castObjectId (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1180:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1614:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1604:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\schematype.js:1581:20)
+      at cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\cast.js:344:32)
+      at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
+  valueType: 'string'
+}
