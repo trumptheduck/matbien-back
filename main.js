@@ -45,16 +45,16 @@ app.use(cors())
 //Use api routes
 app.use(indexRoutes);
 // Webserver
-app.use(express.static(path.join(__dirname, '../frontend/dist/frontend')))
+// app.use(express.static(path.join(__dirname, '../frontend/dist/frontend')))
 
 // Implemented image webserver via Nginx, deprecated
-app.get('/static/images/:name',function(req,res) {
-  if (fs.existsSync(path.join(__dirname, process.env.UPLOAD_PATH+"/"+req.params.name))) {
-    res.sendFile(path.join(__dirname, process.env.UPLOAD_PATH+"/"+req.params.name))
-  } else {
-    res.sendFile(path.join(__dirname, process.env.UPLOAD_PATH+'/nophoto.jpg'))
-  }
-})
+// app.get('/static/images/:name',function(req,res) {
+//   if (fs.existsSync(path.join(__dirname, process.env.UPLOAD_PATH+"/"+req.params.name))) {
+//     res.sendFile(path.join(__dirname, process.env.UPLOAD_PATH+"/"+req.params.name))
+//   } else {
+//     res.sendFile(path.join(__dirname, process.env.UPLOAD_PATH+'/nophoto.jpg'))
+//   }
+// })
 
 // Implemented image webserver via Nginx, deprecated
 app.get('/static/photo/:name',function(req,res) {
@@ -65,12 +65,12 @@ app.get('/static/photo/:name',function(req,res) {
   }
 })
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '../frontend/dist/frontend'))
-})
-app.use((req,res,next)=>{
-  res.sendFile(path.join(__dirname, '../frontend/dist/frontend/index.html'))
-})
+// app.get('/', function(req, res) {
+//   res.sendFile(path.join(__dirname, '../frontend/dist/frontend'))
+// })
+// app.use((req,res,next)=>{
+//   res.sendFile(path.join(__dirname, '../frontend/dist/frontend/index.html'))
+// })
 
 //Listen to request at port
 
