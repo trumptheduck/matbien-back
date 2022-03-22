@@ -663,3 +663,27 @@ APPLICATION STARTED: Tue Mar 22 2022 04:55:15 GMT+0700 (Indochina Time)
       at model.Query.Query.cast (C:\Users\nhat\Desktop\matbien\backend\node_modules\mongoose\lib\query.js:5076:12),
   valueType: 'string'
 }
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 06:42:20 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|23:42:20] Listening on port 80!
+[2022-03-21|23:42:21] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 06:48:59 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-21|23:48:59] Listening on port 80!
+[2022-03-21|23:49:00] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 07:05:20 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-22|00:05:20] Listening on port 80!
+[2022-03-22|00:05:21] Connected to MongoDB!
+==========================================================================
+APPLICATION STARTED: Tue Mar 22 2022 07:07:07 GMT+0700 (Indochina Time)
+==========================================================================
+
+[2022-03-22|00:07:07] Listening on port 80!
+[2022-03-22|00:07:08] Connected to MongoDB!
